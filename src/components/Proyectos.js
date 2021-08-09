@@ -1,4 +1,4 @@
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
 import React, {useState, useEffect, useContext} from 'react'
 
 import ProyectoContext from './../context/proyectos/ProyectoContext'
@@ -28,6 +28,7 @@ export default function Proyectos() {
     // 3. USEEFFECT
 
     useEffect(() => {
+        
         
         obtenerProyectos()
 
